@@ -1,0 +1,62 @@
+<html>
+	<title>Registration</title>
+		<body>
+			<head>
+				<title>Registration</title>
+				<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+				<link rel="stylesheet" type="text/css" href="style.css">
+				<link rel="shortcut icon" href="favicon.png"/>
+			</head>
+			<div id="bor">
+			<h2 style="padding-left:40%;color:blue;">Pet Owner Registration</h2>
+			<form method="post" action="registration.php">
+			<table align="center" border="0">
+			
+				<tr>
+					<td>Owner Name</td>
+					<td><input type="text" name="name" required/></td>
+				</tr>
+				<tr>
+					<td>Owner Address</td>
+					<td><input type="text" name="address" required/></td>
+				</tr>
+				<tr>
+					<td>
+						Distance from pet shop (in Mile)<br>
+						<small>House# 28, Dhanmondi 32, Dhaka</small>
+					</td>
+					<td><input type="number" min=0 name="distance_from_pet_shop" required/></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" required/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password" required/></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input type="password" name="cpassword" required/></td>
+				</tr>
+				<tr>
+					<td>Phone Number</td>
+					<td><input type="text" name="phone" required/></td>
+				</tr>
+				<tr>
+					<td>Zipcode</td>
+					<td><input type="text" name="zipcode" required/></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td align="right">
+					<input type="submit" value="Sign Up">
+				</tr>
+						
+			</table>
+			</form>
+	</div>		
+			
+		</body>	
+
+</html>
